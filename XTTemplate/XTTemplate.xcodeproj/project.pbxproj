@@ -24,6 +24,21 @@
 		8407DEF9217823EE004D131E /* WYCBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8407DEF7217823EE004D131E /* WYCBaseRequest.m */; };
 		8407DEFC217828B9004D131E /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8407DEFA217828B9004D131E /* BaseViewController.m */; };
 		8463798E2178396D004155A3 /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8463798D2178396D004155A3 /* CTMediator.m */; };
+		846379B821785AB0004155A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 846379B721785AB0004155A3 /* AppDelegate.m */; };
+		846379BB21785AB0004155A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846379BA21785AB0004155A3 /* ViewController.m */; };
+		846379BE21785AB0004155A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846379BC21785AB0004155A3 /* Main.storyboard */; };
+		846379C021785AB0004155A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846379BF21785AB0004155A3 /* Assets.xcassets */; };
+		846379C321785AB0004155A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846379C121785AB0004155A3 /* LaunchScreen.storyboard */; };
+		846379C621785AB0004155A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 846379C521785AB0004155A3 /* main.m */; };
+		846379D021785AB1004155A3 /* ModuleOneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 846379CF21785AB1004155A3 /* ModuleOneTests.m */; };
+		846379DB21785AB1004155A3 /* ModuleOneUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 846379DA21785AB1004155A3 /* ModuleOneUITests.m */; };
+		846379E621785D7E004155A3 /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8463798D2178396D004155A3 /* CTMediator.m */; };
+		846379ED21785E3A004155A3 /* Target_Device.m in Sources */ = {isa = PBXBuildFile; fileRef = 846379E921785E39004155A3 /* Target_Device.m */; };
+		846379EE21785E3A004155A3 /* CTMediator+DeviceModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 846379EC21785E39004155A3 /* CTMediator+DeviceModule.m */; };
+		846379EF21785E9D004155A3 /* CTMediator+DeviceModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 846379EC21785E39004155A3 /* CTMediator+DeviceModule.m */; };
+		846379F12178640D004155A3 /* Target_Device.m in Sources */ = {isa = PBXBuildFile; fileRef = 846379E921785E39004155A3 /* Target_Device.m */; };
+		846379F4217864E0004155A3 /* ModuleOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846379F3217864E0004155A3 /* ModuleOneViewController.m */; };
+		846379F5217864E9004155A3 /* ModuleOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846379F3217864E0004155A3 /* ModuleOneViewController.m */; };
 		84F790E8217829B400495226 /* UIButton+HitRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F790E7217829B300495226 /* UIButton+HitRect.m */; };
 		84F790F321782D7D00495226 /* loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 84F790EB21782D7D00495226 /* loading.json */; };
 		84F790F421782D7D00495226 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F790EC21782D7D00495226 /* MBProgressHUD.m */; };
@@ -50,6 +65,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 8407DEA821771C02004D131E;
 			remoteInfo = XTTemplate;
+		};
+		846379CC21785AB1004155A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8407DEA121771C02004D131E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 846379B321785AAF004155A3;
+			remoteInfo = ModuleOne;
+		};
+		846379D721785AB1004155A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8407DEA121771C02004D131E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 846379B321785AAF004155A3;
+			remoteInfo = ModuleOne;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -94,6 +123,28 @@
 		8407DEFB217828B9004D131E /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		8463798C2178396D004155A3 /* CTMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTMediator.h; sourceTree = "<group>"; };
 		8463798D2178396D004155A3 /* CTMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTMediator.m; sourceTree = "<group>"; };
+		846379B421785AAF004155A3 /* ModuleOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModuleOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		846379B621785AB0004155A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		846379B721785AB0004155A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		846379B921785AB0004155A3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		846379BA21785AB0004155A3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		846379BD21785AB0004155A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		846379BF21785AB0004155A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		846379C221785AB0004155A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		846379C421785AB0004155A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846379C521785AB0004155A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		846379CB21785AB0004155A3 /* ModuleOneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModuleOneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		846379CF21785AB1004155A3 /* ModuleOneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModuleOneTests.m; sourceTree = "<group>"; };
+		846379D121785AB1004155A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846379D621785AB1004155A3 /* ModuleOneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModuleOneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		846379DA21785AB1004155A3 /* ModuleOneUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModuleOneUITests.m; sourceTree = "<group>"; };
+		846379DC21785AB1004155A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846379E821785E39004155A3 /* Target_Device.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_Device.h; sourceTree = "<group>"; };
+		846379E921785E39004155A3 /* Target_Device.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_Device.m; sourceTree = "<group>"; };
+		846379EB21785E39004155A3 /* CTMediator+DeviceModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CTMediator+DeviceModule.h"; sourceTree = "<group>"; };
+		846379EC21785E39004155A3 /* CTMediator+DeviceModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+DeviceModule.m"; sourceTree = "<group>"; };
+		846379F2217864E0004155A3 /* ModuleOneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuleOneViewController.h; sourceTree = "<group>"; };
+		846379F3217864E0004155A3 /* ModuleOneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModuleOneViewController.m; sourceTree = "<group>"; };
 		84F790E6217829B300495226 /* UIButton+HitRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+HitRect.h"; sourceTree = "<group>"; };
 		84F790E7217829B300495226 /* UIButton+HitRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+HitRect.m"; sourceTree = "<group>"; };
 		84F790EA21782D7D00495226 /* MBProgressHUD+XTExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+XTExtension.h"; sourceTree = "<group>"; };
@@ -136,6 +187,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		846379B121785AAF004155A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846379C821785AB0004155A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846379D321785AB1004155A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -155,6 +227,9 @@
 				8407DEAB21771C02004D131E /* XTTemplate */,
 				8407DEC421771C04004D131E /* XTTemplateTests */,
 				8407DECF21771C04004D131E /* XTTemplateUITests */,
+				846379B521785AB0004155A3 /* ModuleOne */,
+				846379CE21785AB1004155A3 /* ModuleOneTests */,
+				846379D921785AB1004155A3 /* ModuleOneUITests */,
 				8407DEAA21771C02004D131E /* Products */,
 				F149A5B5915BF52C01B27A92 /* Pods */,
 				0F0BA6DB58EBEB0B3131237D /* Frameworks */,
@@ -167,6 +242,9 @@
 				8407DEA921771C02004D131E /* XTTemplate.app */,
 				8407DEC121771C04004D131E /* XTTemplateTests.xctest */,
 				8407DECC21771C04004D131E /* XTTemplateUITests.xctest */,
+				846379B421785AAF004155A3 /* ModuleOne.app */,
+				846379CB21785AB0004155A3 /* ModuleOneTests.xctest */,
+				846379D621785AB1004155A3 /* ModuleOneUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -274,6 +352,62 @@
 			path = CTMediator;
 			sourceTree = "<group>";
 		};
+		846379B521785AB0004155A3 /* ModuleOne */ = {
+			isa = PBXGroup;
+			children = (
+				846379E721785E39004155A3 /* Action */,
+				846379EA21785E39004155A3 /* Module */,
+				846379B621785AB0004155A3 /* AppDelegate.h */,
+				846379B721785AB0004155A3 /* AppDelegate.m */,
+				846379B921785AB0004155A3 /* ViewController.h */,
+				846379BA21785AB0004155A3 /* ViewController.m */,
+				846379F2217864E0004155A3 /* ModuleOneViewController.h */,
+				846379F3217864E0004155A3 /* ModuleOneViewController.m */,
+				846379BC21785AB0004155A3 /* Main.storyboard */,
+				846379BF21785AB0004155A3 /* Assets.xcassets */,
+				846379C121785AB0004155A3 /* LaunchScreen.storyboard */,
+				846379C421785AB0004155A3 /* Info.plist */,
+				846379C521785AB0004155A3 /* main.m */,
+			);
+			path = ModuleOne;
+			sourceTree = "<group>";
+		};
+		846379CE21785AB1004155A3 /* ModuleOneTests */ = {
+			isa = PBXGroup;
+			children = (
+				846379CF21785AB1004155A3 /* ModuleOneTests.m */,
+				846379D121785AB1004155A3 /* Info.plist */,
+			);
+			path = ModuleOneTests;
+			sourceTree = "<group>";
+		};
+		846379D921785AB1004155A3 /* ModuleOneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				846379DA21785AB1004155A3 /* ModuleOneUITests.m */,
+				846379DC21785AB1004155A3 /* Info.plist */,
+			);
+			path = ModuleOneUITests;
+			sourceTree = "<group>";
+		};
+		846379E721785E39004155A3 /* Action */ = {
+			isa = PBXGroup;
+			children = (
+				846379E821785E39004155A3 /* Target_Device.h */,
+				846379E921785E39004155A3 /* Target_Device.m */,
+			);
+			path = Action;
+			sourceTree = "<group>";
+		};
+		846379EA21785E39004155A3 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				846379EB21785E39004155A3 /* CTMediator+DeviceModule.h */,
+				846379EC21785E39004155A3 /* CTMediator+DeviceModule.m */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
 		84F790E4217829B300495226 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
@@ -379,6 +513,59 @@
 			productReference = 8407DECC21771C04004D131E /* XTTemplateUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		846379B321785AAF004155A3 /* ModuleOne */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846379E321785AB1004155A3 /* Build configuration list for PBXNativeTarget "ModuleOne" */;
+			buildPhases = (
+				846379B021785AAF004155A3 /* Sources */,
+				846379B121785AAF004155A3 /* Frameworks */,
+				846379B221785AAF004155A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ModuleOne;
+			productName = ModuleOne;
+			productReference = 846379B421785AAF004155A3 /* ModuleOne.app */;
+			productType = "com.apple.product-type.application";
+		};
+		846379CA21785AB0004155A3 /* ModuleOneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846379E421785AB1004155A3 /* Build configuration list for PBXNativeTarget "ModuleOneTests" */;
+			buildPhases = (
+				846379C721785AB0004155A3 /* Sources */,
+				846379C821785AB0004155A3 /* Frameworks */,
+				846379C921785AB0004155A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				846379CD21785AB1004155A3 /* PBXTargetDependency */,
+			);
+			name = ModuleOneTests;
+			productName = ModuleOneTests;
+			productReference = 846379CB21785AB0004155A3 /* ModuleOneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		846379D521785AB1004155A3 /* ModuleOneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846379E521785AB1004155A3 /* Build configuration list for PBXNativeTarget "ModuleOneUITests" */;
+			buildPhases = (
+				846379D221785AB1004155A3 /* Sources */,
+				846379D321785AB1004155A3 /* Frameworks */,
+				846379D421785AB1004155A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				846379D821785AB1004155A3 /* PBXTargetDependency */,
+			);
+			name = ModuleOneUITests;
+			productName = ModuleOneUITests;
+			productReference = 846379D621785AB1004155A3 /* ModuleOneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -399,6 +586,17 @@
 						CreatedOnToolsVersion = 10.0;
 						TestTargetID = 8407DEA821771C02004D131E;
 					};
+					846379B321785AAF004155A3 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					846379CA21785AB0004155A3 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 846379B321785AAF004155A3;
+					};
+					846379D521785AB1004155A3 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 846379B321785AAF004155A3;
+					};
 				};
 			};
 			buildConfigurationList = 8407DEA421771C02004D131E /* Build configuration list for PBXProject "XTTemplate" */;
@@ -417,6 +615,9 @@
 				8407DEA821771C02004D131E /* XTTemplate */,
 				8407DEC021771C04004D131E /* XTTemplateTests */,
 				8407DECB21771C04004D131E /* XTTemplateUITests */,
+				846379B321785AAF004155A3 /* ModuleOne */,
+				846379CA21785AB0004155A3 /* ModuleOneTests */,
+				846379D521785AB1004155A3 /* ModuleOneUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -445,6 +646,30 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8407DECA21771C04004D131E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846379B221785AAF004155A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846379C321785AB0004155A3 /* LaunchScreen.storyboard in Resources */,
+				846379C021785AB0004155A3 /* Assets.xcassets in Resources */,
+				846379BE21785AB0004155A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846379C921785AB0004155A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846379D421785AB1004155A3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -522,12 +747,15 @@
 				8407DEF9217823EE004D131E /* WYCBaseRequest.m in Sources */,
 				8407DEB121771C03004D131E /* ViewController.m in Sources */,
 				8407DEBC21771C04004D131E /* main.m in Sources */,
+				846379F12178640D004155A3 /* Target_Device.m in Sources */,
 				84F790F421782D7D00495226 /* MBProgressHUD.m in Sources */,
+				846379F5217864E9004155A3 /* ModuleOneViewController.m in Sources */,
 				84F790F921782D7D00495226 /* MBProgressHUD+XTExtension.m in Sources */,
 				8407DEAE21771C03004D131E /* AppDelegate.m in Sources */,
 				8407DEE621772AD9004D131E /* BaseViewModel.m in Sources */,
 				8407DEF1217737D2004D131E /* BaseTableViewBindingHelper.m in Sources */,
 				8407DEF8217823EE004D131E /* WYCBaseRequest+Rac.m in Sources */,
+				846379EF21785E9D004155A3 /* CTMediator+DeviceModule.m in Sources */,
 				8463798E2178396D004155A3 /* CTMediator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -548,6 +776,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		846379B021785AAF004155A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846379BB21785AB0004155A3 /* ViewController.m in Sources */,
+				846379EE21785E3A004155A3 /* CTMediator+DeviceModule.m in Sources */,
+				846379C621785AB0004155A3 /* main.m in Sources */,
+				846379B821785AB0004155A3 /* AppDelegate.m in Sources */,
+				846379E621785D7E004155A3 /* CTMediator.m in Sources */,
+				846379F4217864E0004155A3 /* ModuleOneViewController.m in Sources */,
+				846379ED21785E3A004155A3 /* Target_Device.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846379C721785AB0004155A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846379D021785AB1004155A3 /* ModuleOneTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846379D221785AB1004155A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846379DB21785AB1004155A3 /* ModuleOneUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -560,6 +818,16 @@
 			isa = PBXTargetDependency;
 			target = 8407DEA821771C02004D131E /* XTTemplate */;
 			targetProxy = 8407DECD21771C04004D131E /* PBXContainerItemProxy */;
+		};
+		846379CD21785AB1004155A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 846379B321785AAF004155A3 /* ModuleOne */;
+			targetProxy = 846379CC21785AB1004155A3 /* PBXContainerItemProxy */;
+		};
+		846379D821785AB1004155A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 846379B321785AAF004155A3 /* ModuleOne */;
+			targetProxy = 846379D721785AB1004155A3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -576,6 +844,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				8407DEB821771C04004D131E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		846379BC21785AB0004155A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				846379BD21785AB0004155A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		846379C121785AB0004155A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				846379C221785AB0004155A3 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -809,6 +1093,114 @@
 			};
 			name = Release;
 		};
+		846379DD21785AB1004155A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DGGB7G3D26;
+				INFOPLIST_FILE = ModuleOne/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xtxiete.ModuleOne;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		846379DE21785AB1004155A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DGGB7G3D26;
+				INFOPLIST_FILE = ModuleOne/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xtxiete.ModuleOne;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		846379DF21785AB1004155A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DGGB7G3D26;
+				INFOPLIST_FILE = ModuleOneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xtxiete.ModuleOneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ModuleOne.app/ModuleOne";
+			};
+			name = Debug;
+		};
+		846379E021785AB1004155A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DGGB7G3D26;
+				INFOPLIST_FILE = ModuleOneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xtxiete.ModuleOneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ModuleOne.app/ModuleOne";
+			};
+			name = Release;
+		};
+		846379E121785AB1004155A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DGGB7G3D26;
+				INFOPLIST_FILE = ModuleOneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xtxiete.ModuleOneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ModuleOne;
+			};
+			name = Debug;
+		};
+		846379E221785AB1004155A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DGGB7G3D26;
+				INFOPLIST_FILE = ModuleOneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xtxiete.ModuleOneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ModuleOne;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -844,6 +1236,33 @@
 			buildConfigurations = (
 				8407DEDC21771C04004D131E /* Debug */,
 				8407DEDD21771C04004D131E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846379E321785AB1004155A3 /* Build configuration list for PBXNativeTarget "ModuleOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846379DD21785AB1004155A3 /* Debug */,
+				846379DE21785AB1004155A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846379E421785AB1004155A3 /* Build configuration list for PBXNativeTarget "ModuleOneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846379DF21785AB1004155A3 /* Debug */,
+				846379E021785AB1004155A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846379E521785AB1004155A3 /* Build configuration list for PBXNativeTarget "ModuleOneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846379E121785AB1004155A3 /* Debug */,
+				846379E221785AB1004155A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

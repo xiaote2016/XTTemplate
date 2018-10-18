@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "CTMediator+DeviceModule.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    
+}
+
+- (IBAction)test:(id)sender {
+    
+    UIViewController *vc = [[CTMediator sharedInstance] CTMediator_DeviceController];
+    
+    vc.view.backgroundColor = [UIColor whiteColor];
+    [self.navigationController pushViewController:vc animated:YES];
+    
 }
 
 
