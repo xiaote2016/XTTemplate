@@ -38,6 +38,8 @@
             return [[self executeRequestDataSignal:input] takeUntil:self.rac_willDeallocSignal];
             
         }];
+        
+        [self initializeForViewModel];
     }
     return self;
 }

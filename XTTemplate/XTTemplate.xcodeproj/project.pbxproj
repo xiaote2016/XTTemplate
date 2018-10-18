@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		182054963259415E8079F383 /* libPods-ModuleOne.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73EDAFA63915D273401D9276 /* libPods-ModuleOne.a */; };
 		2A9CD8A054940B8A9020F285 /* libPods-XTTemplateUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C05A9C4AFA19FF1C082D0174 /* libPods-XTTemplateUITests.a */; };
 		8407DEAE21771C03004D131E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8407DEAD21771C03004D131E /* AppDelegate.m */; };
 		8407DEB121771C03004D131E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8407DEB021771C03004D131E /* ViewController.m */; };
@@ -85,6 +86,7 @@
 /* Begin PBXFileReference section */
 		11EF23B369ADB24C0F9A3BAC /* Pods-XTTemplateUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XTTemplateUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XTTemplateUITests/Pods-XTTemplateUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		2C26F4621346B2BE4C05BCFD /* Pods-XTTemplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XTTemplate.release.xcconfig"; path = "Pods/Target Support Files/Pods-XTTemplate/Pods-XTTemplate.release.xcconfig"; sourceTree = "<group>"; };
+		73EDAFA63915D273401D9276 /* libPods-ModuleOne.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ModuleOne.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78B54820F2536AC20DB1A309 /* libPods-XTTemplate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XTTemplate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79902AECD86A3A11D73FA7C6 /* Pods-XTTemplateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XTTemplateTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XTTemplateTests/Pods-XTTemplateTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7C0DBDF26C9CB19AFDC95879 /* Pods-XTTemplateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XTTemplateTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XTTemplateTests/Pods-XTTemplateTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -156,8 +158,10 @@
 		84F790F021782D7D00495226 /* errorAnimation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = errorAnimation.json; sourceTree = "<group>"; };
 		84F790F121782D7D00495226 /* animation-w180-h180.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "animation-w180-h180.json"; sourceTree = "<group>"; };
 		84F790F221782D7D00495226 /* MBProgressHUD+XTExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+XTExtension.m"; sourceTree = "<group>"; };
+		85B0CEF51271C78B6DE4C6CB /* Pods-ModuleOne.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModuleOne.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ModuleOne/Pods-ModuleOne.debug.xcconfig"; sourceTree = "<group>"; };
 		C05A9C4AFA19FF1C082D0174 /* libPods-XTTemplateUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XTTemplateUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C12657AF303CB1BE6FE4E20F /* Pods-XTTemplateUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XTTemplateUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XTTemplateUITests/Pods-XTTemplateUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C9E69115C1548987BD061BEF /* Pods-ModuleOne.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModuleOne.release.xcconfig"; path = "Pods/Target Support Files/Pods-ModuleOne/Pods-ModuleOne.release.xcconfig"; sourceTree = "<group>"; };
 		F07E67010F4E9797254D4DE8 /* Pods-XTTemplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XTTemplate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XTTemplate/Pods-XTTemplate.debug.xcconfig"; sourceTree = "<group>"; };
 		FF40F782E7E98418AF66EB65 /* libPods-XTTemplateTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XTTemplateTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -191,6 +195,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				182054963259415E8079F383 /* libPods-ModuleOne.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,6 +222,7 @@
 				78B54820F2536AC20DB1A309 /* libPods-XTTemplate.a */,
 				FF40F782E7E98418AF66EB65 /* libPods-XTTemplateTests.a */,
 				C05A9C4AFA19FF1C082D0174 /* libPods-XTTemplateUITests.a */,
+				73EDAFA63915D273401D9276 /* libPods-ModuleOne.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -450,6 +456,8 @@
 				7C0DBDF26C9CB19AFDC95879 /* Pods-XTTemplateTests.release.xcconfig */,
 				11EF23B369ADB24C0F9A3BAC /* Pods-XTTemplateUITests.debug.xcconfig */,
 				C12657AF303CB1BE6FE4E20F /* Pods-XTTemplateUITests.release.xcconfig */,
+				85B0CEF51271C78B6DE4C6CB /* Pods-ModuleOne.debug.xcconfig */,
+				C9E69115C1548987BD061BEF /* Pods-ModuleOne.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -517,6 +525,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 846379E321785AB1004155A3 /* Build configuration list for PBXNativeTarget "ModuleOne" */;
 			buildPhases = (
+				402766BBD5FEE7DD3BF6B13D /* [CP] Check Pods Manifest.lock */,
 				846379B021785AAF004155A3 /* Sources */,
 				846379B121785AAF004155A3 /* Frameworks */,
 				846379B221785AAF004155A3 /* Resources */,
@@ -691,6 +700,24 @@
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-XTTemplateTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		402766BBD5FEE7DD3BF6B13D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ModuleOne-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1095,6 +1122,7 @@
 		};
 		846379DD21785AB1004155A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85B0CEF51271C78B6DE4C6CB /* Pods-ModuleOne.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -1112,6 +1140,7 @@
 		};
 		846379DE21785AB1004155A3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9E69115C1548987BD061BEF /* Pods-ModuleOne.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
